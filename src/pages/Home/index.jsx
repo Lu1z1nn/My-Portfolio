@@ -11,7 +11,7 @@ ThirdProject, FourthProject, H3,
 SectionImage
 } from './styles'
 
-import Btn from '../../components/button'
+
 
 
 function Home() {
@@ -25,9 +25,9 @@ function Home() {
                     <Name>Luiz Fellipe | Desenvolvedor Full-Stack</Name>
                 </HeaderLeft>
                 <HeaderRight>
-                    <Btn type='button' onClick={() => navigate('/about')} >Sobre mim</Btn>
-                    <Btn type='button' onClick={() => navigate('/projects')}>Projetos</Btn>
-                    <Btn> Lua </Btn>
+                    <BtnAboutMe type='button' onClick={() => navigate('/about')} >Sobre mim</BtnAboutMe>
+                    <BtnProjects type='button' onClick={() => navigate('/projects')}>Projetos</BtnProjects>
+                    <BtnMode> Lua </BtnMode>
                 </HeaderRight>
             </Contain>
 
