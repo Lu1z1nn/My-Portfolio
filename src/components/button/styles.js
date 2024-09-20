@@ -1,10 +1,7 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-
-`
-
-export const Btn = styled.button`
+export const Button = styled.button`
+    
     color: #000000;
     text-decoration: none;
     font-size: 30px;

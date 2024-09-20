@@ -1,15 +1,13 @@
-import {
-Container, 
-Btn
-} from './styles'
+import  { Button }  from './styles'
 
-
-function Btn() {
+function DefaultButton({children, ...props}) {
+    
+    
+    console.log(props)
     return (
-        <Container>
-            <Btn></Btn>
-        </Container>
+    <Button {...props}>{children}</Button>    
     )
+    
 }
 
-export default Btn
+export default DefaultButton
