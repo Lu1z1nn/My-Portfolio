@@ -15,7 +15,7 @@ export const Button = styled.button`
         content: " ";
         width: 0%;
         height: 4px;
-        background-color: #ffffff;
+        background-color: #000000;
         position: absolute;
         bottom: 0;
         left: 0;
